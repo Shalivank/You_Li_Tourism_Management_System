@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="org.Youli.GenericUtilities.ListenerImplementation"></listener>
+<listener class-name="org.Youli.GenericUtilities.RetryAnalyzerToListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.tsetNG.TMS.Scripts.BookPackageAndValidateTest"/>
+      <class name="org.tsetNG.TMS.Scripts.CreatePackageTest"/>
+      <class name="org.tsetNG.TMS.Scripts.CreateUserAndCheckCountTest"/>
+      <class name="org.tsetNG.TMS.Scripts.RaiseIssueAsUserAndUpdateRemarkAsAdminTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
