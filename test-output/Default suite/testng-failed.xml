@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.tsetNG.TMS.Scripts.CreateUserAndCheckCountTest">
+      <class name="org.tsetNG.TMS.Scripts.BookPackageAndValidateTest">
         <methods>
           <include name="classSetup"/>
           <include name="methodSetup"/>
           <include name="afterClassSetup"/>
-          <include name="creatUserCheckCount"/>
+          <include name="bookPackageCheckCountIncreases"/>
         </methods>
-      </class> <!-- org.tsetNG.TMS.Scripts.CreateUserAndCheckCountTest -->
+      </class> <!-- org.tsetNG.TMS.Scripts.BookPackageAndValidateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
